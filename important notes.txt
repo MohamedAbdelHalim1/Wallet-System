@@ -1,0 +1,30 @@
+Wallet System
+==============
+
+Run the database migrations with seeders:
+   php artisan migrate --seed
+
+Important Seeder Informations:
+--------------------------
+- Two admins will be created:
+  - Admin One: 
+      Email: admin1@admin.com
+      Password: pass123
+      Permissions: All permissions (Top-up + Withdraw)
+  - Admin Two: 
+      Email: admin2@admin.com
+      Password: pass123
+      Permissions: Withdraw only
+
+
+
+Running the Server:
+----------------------
+- php artisan serve
+- Visit: http://127.0.0.1:8000
+
+ Admin Panel:
+---------------
+- Admin login: /admin/login
+- Referral Code, Withdraws, Permissions, Notifications included.
+
